@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+/*
+   Typographical styles for index.html
+   Author: Scott Cordle
+   Date:   02/20/2020
+   
+   Filename: index_styles.css
+*/
+
+/* Window and Body Styles */
+html {
+  background-color: #e6b690;
+}
+
+body {
+  background-color: rgb(250, 238, 218);
+  font-family: Verdana, Geneva, Arial, sans-serif;
+}
+
+/* Page Header Styles */
+
+body > header {
+  background-color: rgb(61, 138, 216);
+}
+
+body > header > nav a {
+  font-size: 1em;
+  margin: 0.4em 0;
+  padding: 5px;
+}
+
+body > header > nav a:link,
+body > header > nav:visited {
+  color: rgb(250, 238, 218);
+}
+
+body > header > nav a:hover,
+body > header > nav:active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Horizontal Navigation List Styles */
+
+nav.horizontal ul li {
+  background-color: rgb(18, 31, 102);
+  font-size: 0.9em;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav.horizontal a:link,
+nav.horizontal a:visited {
+  color: rgb(250, 238, 218);
+}
+
+nav.horizontal a:hover,
+nav.horizontal a:active {
+  color: rgb(255, 255, 64);
+}
+
+/* Section Styles */
+/* body > section {
+    background-color: rgb(250, 238, 218);
+} */
+
+body > section h2 {
+    padding: 0px;
+}
+
+/* About Me Styles */
+ul#aboutMe {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ul#aboutMe li p {
+  color: #5f72e8;
+  font-size: 0.8em;
+}
+
+/* Assignment Styles */
+
+ul#assignment li p {
+  font-size: 0.9em;
+  color: rgb(121, 121, 121);
+  line-height: 1.2em;
+}
+
+/* Favorites Styles */
+
+ul#favorites li p {
+    font-size: 0.9em;
+    color: rgb(121, 121, 121);
+    line-height: 1.2em;
+  }
+
+/* Footer Styles */
+
+footer {
+  color: rgb(186, 186, 156);
+  background-color: rgb(44, 91, 169);
+  font-size: 0.9em;
+  padding: 10px 0px;
+  text-align: center;
+}
